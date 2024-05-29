@@ -79,7 +79,7 @@ else{
     // Signed in 
     const user = userCredential.user;
     navigate("/browse")
-    console.log("Logged IN");
+   
     // ...
   })
   .catch((error) => {
@@ -89,10 +89,10 @@ else{
   });
 }
 
-    console.log("Validated");
+  
   }else{
     
-    console.log(message)
+   
   }
   };
 
